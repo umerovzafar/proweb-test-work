@@ -146,7 +146,7 @@
     }
     
     .fast::before,.headset::before,.plant::before,.dollar::before{
-        font-size: 24px;
+        font-size: 32px;
     }
     .footer{
         padding: 15px 0;
