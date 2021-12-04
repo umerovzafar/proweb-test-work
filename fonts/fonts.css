@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-SemiBold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(Nunito-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(Nunito-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(Raleway-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSans';
+    src: url(WorkSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSans';
+    src: url(Worksansmedium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FontAwesome Regular';
+    src: url(fa-regular-400.woff);
+    font-weight: 400;
+}
+.far{
+    font-family: 'FontAwesome';
+    font-weight: 400;
+    font-style: normal;
+}
+.search::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f002';
+}
+.cart::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f07a';
+}
+.left::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f177';
+}
+.right::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f178';
+}
+.fast::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f48b';
+    font-size: 48px;
+    color: var(--akana-color);
+}
+.headset::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f590';
+    font-size: 48px;
+    color: var(--akana-color);
+}
+.plant::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f4d8';
+    font-size: 48px;
+    color: var(--akana-color);
+}
+.dollar::before{
+    font-family: 'FontAwesome Regular';
+    content: '\f2e8';
+    font-size: 48px;
+    color: var(--akana-color);
+}

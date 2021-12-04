@@ -1,0 +1,207 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .benefits__card{
+        margin: 0 10px;
+    }
+    .plants__card{
+        flex-wrap: wrap;
+    }
+    .favourites{
+        padding: 20px;
+    }
+    .header__right{
+        padding: 0;
+    }
+    .header__title{
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .header__description{
+        margin-bottom: 40px;
+    }
+    .slider__btn{
+        padding: 15px 0;
+    }
+    .slide__img{
+        max-width: 100%;
+    }
+    .header__content{
+        justify-content: center;
+    }
+    .slide_image_item{
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .nav{
+        left: 30%;
+        width: max-content;
+    } 
+    .footer__content{
+        flex-wrap: wrap;
+    }
+    .footer__card{
+        padding: 10px;
+    }
+}
+@media (max-width:992px) {
+    .container{
+        max-width: 750px;
+    }
+    .header__content{
+        flex-wrap: wrap;
+    }
+    .benefits{
+        flex-wrap: wrap;
+    }
+    .benefits__card{
+        flex-grow: 1;
+        margin: 5px 0;
+    }
+    .benefits__card:nth-of-type(1){
+        margin-right: 10px;
+    }
+    .benefits__card:nth-of-type(3){
+        margin-right: 10px;
+    }
+    .favourites{
+        flex-direction: column;
+    }
+    .favourites__img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footer__card:nth-of-type(4){
+        width: 100%;
+    }
+    .header__content{
+        justify-content: center;
+    }
+    .title{
+        margin-top: 15px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .desc{
+        margin-bottom: 80px;
+    }
+    .slider__btn{
+        padding: 20px;
+    }
+    .nav{
+        left: 20%;
+        width: max-content;
+    } 
+}
+@media (max-width:768px) {
+    .container{
+        max-width: none;
+    }
+    .benefits__card:nth-of-type(1){
+        margin-right: 10px;
+    }
+    .benefits__card:nth-of-type(3){
+        margin-right: 10px;
+    }
+    .card__item{
+        width: 100%;
+    }
+    .plants{
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    .buy {
+        margin-bottom: 40px;
+    }
+    .buy__right{
+        display: none;
+    }
+    .favourites__title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .favourites__btn{
+        margin-top: 10px;
+    }
+    .card__item{
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+    .buy__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .slider__btn{
+        padding: 15px;
+    }
+    .nav__list-link{
+        padding: 8px 10px;
+    }
+    
+    .fast::before,.headset::before,.plant::before,.dollar::before{
+        font-size: 24px;
+    }
+}
+@media (max-width:565px) {
+    .header{
+        margin-bottom: 50px;
+    }
+    .benefits__card:nth-of-type(1){
+        margin-right: 0;
+    }
+    .benefits__card:nth-of-type(3){
+        margin-right: 0;
+    }
+    .plants__btn{
+        padding: 10px 18px 10px 6px;
+    }
+    .header__title{
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .header__description{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 10px;
+    }
+    .right__content{
+        padding: 0;
+    }
+    .slider__btn {
+        padding: 24px 0;
+    }
+    .card__item{
+        flex-direction: column;
+    }
+    .btn__text{
+        font-size: 18px;
+        margin: 0;
+    }
+    .btn__span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .slider__btn{
+        padding: 15px;
+    }
+    .nav{
+        padding:0 15px;
+        left: 0;
+        top: 20px;
+    }
+    .footer__card:nth-of-type(1){
+        width: 100%;
+    }
+    .footer__card:nth-of-type(4){
+        margin-top: 15px;
+    }
+}
