@@ -148,6 +148,9 @@
     .fast::before,.headset::before,.plant::before,.dollar::before{
         font-size: 24px;
     }
+    .footer{
+        padding: 15px 0;
+    }
 }
 @media (max-width:565px) {
     .header{
@@ -197,6 +200,9 @@
         padding:0 15px;
         left: 0;
         top: 20px;
+    }
+    .footer{
+        padding: 15px 0;
     }
     .footer__card:nth-of-type(1){
         width: 100%;
